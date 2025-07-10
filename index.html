@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MeloSync</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+
+  <!-- Prelaoder -->
+  <div id="intro-preloader">
+    <div class="overlay">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <div class="intro-logo">
+      <span>M</span><span>E</span><span>L</span><span>O</span><span>S</span><span>Y</span><span>N</span><span>C</span>
+    </div>
+  </div>
+
+
+  <!-- Particles -->
+  <div id="particles-js"></div>
+
+  
+  <!-- Navbar -->
+  <nav>
+    <div class="nav-left">
+      <a href="#about">ABOUT</a>
+    </div>
+    <div class="nav-right">
+      <a href="https://github.com/mexseh" target="_blank">CONTACT</a>
+      <a href="#login">LOGIN</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1 class="brand">MELOSYNC.</h1>
+
+    <div class="feature-container">
+      <button class="arrow" onclick="prevSlide()">&lt;</button>
+
+      <div class="feature-box">
+        <img class="slide active" src="img/feature 1.png" alt="Feature 1">
+        <img class="slide" src="img/Feature 2.png" alt="Feature 2">
+        <img class="slide" src="img/Feature 3.png" alt="Feature 3">
+      </div>
+
+      <button class="arrow" onclick="nextSlide()">&gt;</button>
+    </div>
+
+  </section>
+
+  <section class="about" id="about">
+    <h2>ABOUT US</h2>
+    <p>
+      Welcome to <strong>MeloSync</strong> — where rhythm meets innovation. We’re not just another music website; we’re an experience carved out for the dreamers, the night owls, the gym warriors, the heartbreakers, the vibers, and the headbangers. Born out of pure love for beats that heal and lyrics that hit, MeloSync is your digital companion for every mood, moment, and memory. Whether you're discovering your next favorite artist or revisiting nostalgic classics, we make sure your vibe is just one tap away. With sleek design, lightning-fast controls, and a community-first mindset, MeloSync is on a mission to redefine how you listen, like, and live with music. Our team is made up of tech junkies and melody maniacs who believe that music should be personal, powerful, and always accessible — no ads, no BS. We’re constantly evolving, just like your playlists. So go ahead, plug in, zone out, and let MeloSync take over. 🎶
+    </p>
+
+  </section>
+
+  <section class="join-us" id="join">
+    <h2>JOIN US</h2>
+    <p>
+     Be part of the MeloSync movement — a space where music lovers, creators, developers, and dreamers come together to shape the future of sound. We’re not just building a streaming platform; we’re building a vibrant community that believes music should be free, personal, and limitless. Whether you’ve got ideas to share, skills to contribute, or a passion for discovering and curating vibes, there’s a place for you here. Join us, collaborate, and let’s make MeloSync more than an app — let’s make it a movement.
+    </p>
+    <a href="#login" class="join-btn">Start Your Journey</a>
+  </section>
+
+<!-- Footer Section -->
+  <footer class="footer">
+    <hr />
+    <div class="footer-content">
+      <a href="https://github.com/mexseh" target="_blank" class="github-link">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+        GitHub
+      </a>
+      <p>&copy; 2025 MeloSync. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>  <!--Preloader-->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>  <!--BG animation-->
+  <script src="homepage.js"></script>
+
+
+
+</body>
+</html>
